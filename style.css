@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Helvetica;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+h1 { font-family: "Geneva", Helvetica, AppleGothic, sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    line-height: 27.5px;
+    text-align: left;
+    color: white;
+    background-color: black;
+    margin: 10;
+}
+ul {font-family: "Geneva", Helvetica, AppleGothic, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    line-height: 27.5px;
+    text-align: center;
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+p{font-family: "Geneva", Helvetica, AppleGothic, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-variant: normal;
+    /* font-weight: 700; */
+    line-height: 27.5px;
+    text-align: center;
+    color: black;
+    padding-right: 60px;
+    padding-left: 60px;
+
+}
+
+.NavBarLinks{
+  font-family: "Geneva", Helvetica, AppleGothic, sans-serif;
+      font-size: 20px;
+      font-style: normal;
+      font-variant: normal;
+      font-weight: 500;
+      line-height: 27.5px;
+      text-align: center;
+      padding-right: 60px;
+      padding-left: 60px;
+}
+
+.NavBarLinks a{
+  padding-right: 60px;
+  padding-left: 60px;
+}
+.button{
+  text-align: center;
+}
+
+.StancePoliticsInfo{
+  text-align: center;
+}
+
+.StancePoliticsInfo a {
+  text-align: center;
+}
+.FindPollingPlace{
+  text-align: center;
+}
+article{
+  padding-top: 30px;
+  padding-bottom: 30px;
+
+}
+
+.vote-pic{
+  display: flex;
+  justify-content: center;
+}
+
+img{
+  width: 80%;
+  display:block;
+  object-fit: cover;
+
+}
