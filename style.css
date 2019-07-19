@@ -54,13 +54,13 @@ p{font-family: "Geneva", Helvetica, AppleGothic, sans-serif;
       font-weight: 500;
       line-height: 27.5px;
       text-align: center;
-      padding-right: 60px;
-      padding-left: 60px;
+      padding-right: 70px;
+      padding-left: 70px;
 }
 
 .NavBarLinks a{
-  padding-right: 60px;
-  padding-left: 60px;
+  padding-right: 70px;
+  padding-left: 70px;
 }
 .button{
   text-align: center;
@@ -87,9 +87,38 @@ article{
   justify-content: center;
 }
 
-img{
-  width: 80%;
+.vote-pic img{
   display:block;
   object-fit: cover;
+  width: 400px;
+  height: 400px;
+  justify-content: center;
 
+}
+
+.AboutUsInfo h3{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+
+}
+
+.AboutUsInfo p{
+  font-size: 16px;
+  margin:-right: 60px;
+  margin:-left: 60px;
+}
+
+.partiesImage img{
+  /* display: flex; */
+  /* justify-content: center; */
+  object-fit: cover;
+}
+
+.AboutUsInfo img{
+  object-fit: cover;
+}
+
+.KWK-image{
+  text-align: center;
 }
